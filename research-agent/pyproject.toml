@@ -1,0 +1,11 @@
+[project]
+name = "research-agent"
+version = "0.0.0"
+description = "LangGraph experiment on ."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core==1.4.1",
+    "langchain-openai==1.2.2",
+    "langgraph==1.2.4",
+]
